@@ -1,0 +1,255 @@
+
+> anumnu-saas@1.0.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.70.95.43:3000
+- Environments: .env
+✓ Ready in 2.3s
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+○ Compiling / ...
+ GET / 200 in 6.8s (next.js: 6.3s, application-code: 511ms)
+Persisting failed: Unable to write SST file 00000012.sst
+
+Caused by:
+    The system cannot find the path specified. (os error 3)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: ENOENT: no such file or directory, open 'E:\Demo_Website\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Demo_Website\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+○ Compiling /_error ...
+⨯ Error: ENOENT: no such file or directory, open 'E:\Demo_Website\.next\dev\static\development\_buildManifest.js.tmp.baj8v0qf1h6'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Demo_Website\\.next\\dev\\static\\development\\_buildManifest.js.tmp.baj8v0qf1h6'
+}
+Error: ENOENT: no such file or directory, open 'E:\Demo_Website\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Demo_Website\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- E:\Demo_Website\.next\dev\server\pages\_document.js
+- E:\Demo_Website\node_modules\next\dist\server\require.js
+- E:\Demo_Website\node_modules\next\dist\server\load-components.js
+- E:\Demo_Website\node_modules\next\dist\build\utils.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-server.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (E:\Demo_Website\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'E:\\Demo_Website\\.next\\dev\\server\\pages\\_document.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\require.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\load-components.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\build\\utils.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'E:\Demo_Website\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Demo_Website\\.next\\dev\\routes-manifest.json'
+}
+ GET / 500 in 8.0s (next.js: 7.9s, application-code: 76ms)
+ GET / 500 in 8.0s (next.js: 7.9s, application-code: 77ms)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: ENOENT: no such file or directory, open 'E:\Demo_Website\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Demo_Website\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- E:\Demo_Website\.next\dev\server\pages\_document.js
+- E:\Demo_Website\node_modules\next\dist\server\require.js
+- E:\Demo_Website\node_modules\next\dist\server\load-components.js
+- E:\Demo_Website\node_modules\next\dist\build\utils.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-server.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (E:\Demo_Website\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'E:\\Demo_Website\\.next\\dev\\server\\pages\\_document.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\require.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\load-components.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\build\\utils.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'E:\Demo_Website\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Demo_Website\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- E:\Demo_Website\.next\dev\server\pages\_document.js
+- E:\Demo_Website\node_modules\next\dist\server\require.js
+- E:\Demo_Website\node_modules\next\dist\server\load-components.js
+- E:\Demo_Website\node_modules\next\dist\build\utils.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-server.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (E:\Demo_Website\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'E:\\Demo_Website\\.next\\dev\\server\\pages\\_document.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\require.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\load-components.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\build\\utils.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'E:\Demo_Website\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Demo_Website\\.next\\dev\\routes-manifest.json'
+}
+ GET / 500 in 334ms (next.js: 310ms, application-code: 25ms)
+ GET / 500 in 335ms (next.js: 310ms, application-code: 25ms)
+○ Compiling /sign-in ...
+⨯ Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- E:\Demo_Website\.next\dev\server\app\(auth)\sign-in\page.js
+- E:\Demo_Website\node_modules\next\dist\server\require.js
+- E:\Demo_Website\node_modules\next\dist\server\load-components.js
+- E:\Demo_Website\node_modules\next\dist\build\utils.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-server.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (E:\Demo_Website\.next\dev\server\app\(auth)\sign-in\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'E:\\Demo_Website\\.next\\dev\\server\\app\\(auth)\\sign-in\\page.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\require.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\load-components.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\build\\utils.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/sign-in'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- E:\Demo_Website\.next\dev\server\pages\_document.js
+- E:\Demo_Website\node_modules\next\dist\server\require.js
+- E:\Demo_Website\node_modules\next\dist\server\load-components.js
+- E:\Demo_Website\node_modules\next\dist\build\utils.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-server.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (E:\Demo_Website\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'E:\\Demo_Website\\.next\\dev\\server\\pages\\_document.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\require.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\load-components.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\build\\utils.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- E:\Demo_Website\.next\dev\server\app\(auth)\sign-in\page.js
+- E:\Demo_Website\node_modules\next\dist\server\require.js
+- E:\Demo_Website\node_modules\next\dist\server\load-components.js
+- E:\Demo_Website\node_modules\next\dist\build\utils.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-server.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (E:\Demo_Website\.next\dev\server\app\(auth)\sign-in\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'E:\\Demo_Website\\.next\\dev\\server\\app\\(auth)\\sign-in\\page.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\require.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\load-components.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\build\\utils.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/sign-in'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- E:\Demo_Website\.next\dev\server\pages\_document.js
+- E:\Demo_Website\node_modules\next\dist\server\require.js
+- E:\Demo_Website\node_modules\next\dist\server\load-components.js
+- E:\Demo_Website\node_modules\next\dist\build\utils.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\router-server.js
+- E:\Demo_Website\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (E:\Demo_Website\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'E:\\Demo_Website\\.next\\dev\\server\\pages\\_document.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\require.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\load-components.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\build\\utils.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'E:\\Demo_Website\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'E:\Demo_Website\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\Demo_Website\\.next\\dev\\routes-manifest.json'
+}
+ GET /sign-in 500 in 4.2s (next.js: 4.2s, application-code: 69ms)
+ GET /sign-in 500 in 4.2s (next.js: 4.2s, application-code: 70ms)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+[?25h
